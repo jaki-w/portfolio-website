@@ -30,3 +30,12 @@ h3 {
 img {
   width: 100%;
 }
+
+a {
+  color: #7A9CAE;
+  text-decoration: none;
+}
+a:hover {
+  color: #cc6540;
+  text-decoration: underline;
+}
