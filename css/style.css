@@ -49,3 +49,14 @@ a:focus {
 a:active {
   color: #994c30;
 }
+
+a.button {
+  display: inline-block;
+  background-color: #7A9CAE;
+  color: #fcfcfc;
+  font-weight: 500;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  transition: 0.2s opacity;
+}
