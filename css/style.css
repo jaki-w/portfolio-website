@@ -60,3 +60,12 @@ a.button {
   border-radius: 3px;
   transition: 0.2s opacity;
 }
+
+a.button:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+a.button:active {
+  color: #994c30;
+}
