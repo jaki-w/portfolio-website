@@ -90,5 +90,9 @@ a.button:active {
 
 .row {
   margin: 25px 0;
-  padding-bottom: 25px;
+}
+
+.column {
+  margin-bottom: 25px;
+  border-bottom: 2px solid black;
 }
