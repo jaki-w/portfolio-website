@@ -78,3 +78,11 @@ a.button:active {
 #socialIcon {
   margin-right: 20px;
 }
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
