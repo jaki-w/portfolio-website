@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="347px" height="108px" viewBox="0 0 347 108" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Artboard Copy 3</title>
-    <g id="Artboard-Copy-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <line x1="346.5" y1="92.5" x2="-0.5" y2="92.5" id="Line" stroke="#1D537B" stroke-width="2" fill="#D8D8D8" stroke-linecap="square"></line>
-        <text id="JRW" font-family="PoiretOne-Regular, Poiret One" font-size="100" font-weight="normal" fill="#1D537B">
-            <tspan x="5" y="84">JRW</tspan>
+<svg width="21px" height="23px" viewBox="0 0 21 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard Copy 4</title>
+    <g id="Artboard-Copy-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="PoiretOne-Regular, Poiret One" font-size="18" font-weight="normal">
+        <text id="J" fill="#1D537B">
+            <tspan x="0" y="14">J</tspan>
+        </text>
+        <text id="W" fill="#1D537B">
+            <tspan x="3" y="23">W</tspan>
         </text>
     </g>
 </svg>
