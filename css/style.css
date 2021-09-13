@@ -87,3 +87,8 @@ a.button:active {
 .container {
   padding: 0 15px;
 }
+
+.row {
+  margin: 25px 0;
+  padding-bottom: 25px;
+}
