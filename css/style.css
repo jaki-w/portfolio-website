@@ -82,14 +82,6 @@ a.button:active {
   margin-right: 20px;
 }
 
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 50%;
-}
-
 /* Layout styling*/
 
 .container {
