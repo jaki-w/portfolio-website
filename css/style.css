@@ -137,3 +137,10 @@ nav {
   display: inline-block;
   width: 100%;
 }
+
+#hero {
+  background-color: #7A9CAE;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
