@@ -132,3 +132,8 @@ nav > ul >li > a:hover,
 nav > ul >li > a:focus {
   color: navy;
 }
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
