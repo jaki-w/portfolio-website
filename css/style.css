@@ -106,6 +106,9 @@ header {
   background-color: #7A9CAE;
   text-align: center;
   padding: 10px 0;
+  box-shadow:  0px 3px 10px 0px rgba(50, 50, 50, 0.39);
+  position: fixed;
+  width: 100%;
 }
 
 nav > ul {
