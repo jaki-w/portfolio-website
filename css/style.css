@@ -96,3 +96,7 @@ a.button:active {
   margin-bottom: 25px;
   border-bottom: 2px solid black;
 }
+
+#hero h1 {
+  text-align: center;
+}
