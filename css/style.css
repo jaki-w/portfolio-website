@@ -93,8 +93,12 @@ a.button:active {
   border-bottom: 2px solid black;
 }
 
-#hero h1 {
+#hero {
   text-align: center;
+}
+
+#hero h1 {
+  color: #fcfcfc;
 }
 
 
