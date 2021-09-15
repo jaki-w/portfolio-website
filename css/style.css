@@ -99,7 +99,8 @@ a.button:active {
 
 
 .logo {
-  max-width: 250px;
+  max-width: 80px;
+  margin-left: 20px;
 }
 
 nav > ul {
@@ -140,7 +141,7 @@ nav {
 }
 
 main {
-  padding-top: 350px;
+  padding-top: 150px;
 }
 
 header {
