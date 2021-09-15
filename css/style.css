@@ -24,6 +24,8 @@ h1 {
 h2 {
   font-size: 1.5em;
   font-weight: 600;
+  margin-top,
+  margin-bottom: 60px;
 }
 
 h3 {
@@ -63,7 +65,7 @@ a.button {
   color: #fcfcfc;
   font-weight: 500;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   border-radius: 3px;
   transition: 0.2s opacity;
 }
