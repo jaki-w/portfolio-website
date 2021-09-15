@@ -96,10 +96,6 @@ a.button:active {
   border-bottom: 2px solid black;
 }
 
-#hero {
-  text-align: center;
-}
-
 #hero h1 {
   color: #fcfcfc;
 }
@@ -139,8 +135,9 @@ nav {
 }
 
 #hero {
+  text-align: center;
   background-color: #7A9CAE;
-  padding: 20px 0;
+  padding: 20px;
   display: inline-block;
   width: 100%;
 }
