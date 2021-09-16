@@ -166,10 +166,17 @@ nav {
 }
 
 #myStory {
-  width: 70%;
+  width: 60%;
   float: right;
+  background-color: #fcfcfc;
+  border-radius: 2%;
+  padding: 20px;
 }
 
+
+#content {
+  margin: 30px;
+}
 main {
   padding-top: 120px;
 }
