@@ -157,7 +157,7 @@ nav {
 #profileImg {
   width: 30%;
   border-radius: 50%;
-  display: inline;
+  float: left;
 }
 
 #contact {
@@ -166,7 +166,8 @@ nav {
 }
 
 #myStory {
-  display: inline;
+  width: 70%;
+  float: right;
 }
 
 main {
