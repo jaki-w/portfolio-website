@@ -191,6 +191,12 @@ nav {
   text-align: center;
 }
 
+.projectSection {
+  background-color: #fcfcfc;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
 main {
   padding-top: 120px;
 }
