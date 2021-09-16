@@ -38,6 +38,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 a {
@@ -144,6 +146,7 @@ nav {
   display: inline-block;
   width: 100%;
   margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 #project1,
