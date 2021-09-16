@@ -158,9 +158,8 @@ nav {
 }
 
 #profileImg {
-  width: 30%;
+  width: 100%;
   border-radius: 50%;
-  float: left;
 }
 
 #contact {
@@ -168,9 +167,12 @@ nav {
   margin-right: 30px;
 }
 
-#myStory {
+#sectionChild1 {
+  width: 30%;
+}
+
+#sectionChild2 {
   width: 60%;
-  float: right;
   background-color: #fcfcfc;
   border-radius: 2%;
   padding: 20px;
@@ -178,6 +180,10 @@ nav {
 
 #content {
   margin: 30px;
+}
+
+#resumeButton {
+  margin-left: 7%;
 }
 
 main {
@@ -195,4 +201,9 @@ header {
 
 .center {
   text-align: center;
+}
+
+.parentContainer {
+  display: flex;
+  justify-content: space-evenly;
 }
