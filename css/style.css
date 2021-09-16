@@ -191,6 +191,12 @@ nav {
   text-align: center;
 }
 
+#overview {
+  border: .5px solid black;
+  padding: 20px;
+  border-radius: 2%;
+}
+
 .projectSection {
   background-color: #fcfcfc;
   padding: 20px;
