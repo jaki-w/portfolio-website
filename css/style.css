@@ -157,6 +157,7 @@ nav {
 #profileImg {
   width: 30%;
   border-radius: 50%;
+  display: inline;
 }
 
 #contact {
