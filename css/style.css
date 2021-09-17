@@ -90,6 +90,10 @@ img {
   border-radius: 50%;
 }
 
+.preferenceImages {
+  width: 80%;
+}
+
 /* Link & Button Styling*/
 
 a {
