@@ -208,6 +208,10 @@ nav {
   color: #0f0f0f;
 }
 
+#hero span {
+  display: block;
+}
+
 #project1,
 #project2 {
   margin-top: 60px;
