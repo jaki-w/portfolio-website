@@ -281,6 +281,10 @@ main {
   padding-top: 90px;
 }
 
+#aboutPage h3 {
+  margin-top: 0;
+}
+
 .col-md-6 {
   width: 50%;
 }
