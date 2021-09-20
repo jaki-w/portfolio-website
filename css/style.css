@@ -277,6 +277,10 @@ nav {
   margin-right: 40px;
 }
 
+main {
+  padding-top: 90px;
+}
+
 .logo {
   float: left;
   margin: 40px;
