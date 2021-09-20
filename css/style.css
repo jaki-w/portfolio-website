@@ -270,6 +270,13 @@ header {
   text-align: unset;
 }
 
+nav {
+  width: auto;
+  float: right;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+
 .logo {
   float: left;
   margin: 40px;
