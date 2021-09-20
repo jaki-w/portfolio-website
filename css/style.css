@@ -289,6 +289,16 @@ main {
   width: 50%;
 }
 
+[class*="col-"] {
+  float: left;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .logo {
   float: left;
   margin: 40px;
