@@ -77,12 +77,10 @@ header {
 /* Image styling */
 
 img {
-  width: 80%;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 #profileImg {
@@ -214,9 +212,7 @@ nav {
 
 #project1,
 #project2 {
-  margin-top: 60px;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-top: 40px;
   border-bottom: 2px solid black;
 }
 
@@ -291,6 +287,8 @@ main {
 
 [class*="col-"] {
   float: left;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .row:after {
