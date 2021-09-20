@@ -285,6 +285,10 @@ main {
   padding-top: 90px;
 }
 
+.col-md-6 {
+  width: 50%;
+}
+
 .logo {
   float: left;
   margin: 40px;
