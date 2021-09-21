@@ -264,6 +264,7 @@ nav {
 
 /* keyframes */
 
+/* sky color change */
 @keyframes color-change1 {
   0% {fill: #8B699A;}
   25% {fill: #C54A5C;}
@@ -322,6 +323,17 @@ nav {
 
 #circle5 {
   animation: 8s color-change5 infinite alternate linear;
+}
+
+/* star movement */
+
+@keyframes star-move {
+  from {transform: translateX(0px);}
+  to {transform: translateX(10px);}
+}
+
+#star2 {
+  animation: 4s star-move infinite alternate linear;
 }
 
 /* Medium devices (640px and larger) */
