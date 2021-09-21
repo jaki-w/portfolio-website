@@ -270,6 +270,10 @@ nav {
   100% {fill: #f76414;}
 }
 
+#circle1 {
+  animation: 4s color-change infinite alternate linear;
+}
+
 /* Medium devices (640px and larger) */
 
 @media only screen and (min-width: 640px) {
