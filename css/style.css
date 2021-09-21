@@ -264,10 +264,10 @@ nav {
 
 /* keyframes */
 
-@keyframes color-change {
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f76414;}
+@keyframes color-change1 {
+  0% {fill: #8B699A;}
+  50% {fill: #8D7896;}
+  100% {fill: #BEB5C2;}
 }
 
 #circle1 {
