@@ -92,6 +92,12 @@ img {
   width: 80%;
 }
 
+#Layer_1 {
+  width: 75%;
+  max-width: 100%;
+  height: auto;
+}
+
 /* Link & Button Styling*/
 
 a {
