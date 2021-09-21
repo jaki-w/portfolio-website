@@ -329,11 +329,28 @@ nav {
 
 @keyframes star-move {
   from {transform: translateX(0px);}
-  to {transform: translateX(10px);}
+  to {transform: translateX(8px);}
+}
+
+@keyframes star-move2 {
+  from {transform: translateX(0px);}
+  to {transform: translateX(-8px);}
 }
 
 #star2 {
+  animation: 4s star-move2 infinite alternate linear;
+}
+
+#star4 {
   animation: 4s star-move infinite alternate linear;
+}
+
+#star7 {
+  animation: 4s star-move infinite alternate linear;
+}
+
+#star10 {
+  animation: 4s star-move2 infinite alternate linear;
 }
 
 /* Medium devices (640px and larger) */
