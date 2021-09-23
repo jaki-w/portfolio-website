@@ -253,6 +253,9 @@ nav {
   justify-content: center;
 }
 
+#skillsHeader {
+  margin-top: 3em;
+}
 #skillsList {
   margin-right: 20em;
 }
