@@ -247,6 +247,11 @@ nav {
   padding: 20px;
 }
 
+#skills {
+  display: flex;
+  justify-content: center;
+}
+
 /*BakerieBox page styling */
 
 #intro {
