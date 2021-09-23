@@ -143,6 +143,10 @@ a.button:active {
   text-align: center;
 }
 
+#emailButton {
+  margin-bottom: 20px;
+}
+
 /* Logo & icon styling */
 
 #socialIcon {
