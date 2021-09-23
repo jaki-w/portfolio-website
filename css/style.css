@@ -252,6 +252,10 @@ nav {
   justify-content: center;
 }
 
+#skillsList {
+  margin-right: 20em;
+}
+
 /*BakerieBox page styling */
 
 #intro {
