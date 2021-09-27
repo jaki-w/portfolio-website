@@ -161,7 +161,8 @@ a.button:active {
 
 nav > ul {
   list-style-type: none;
-  padding; 0;
+  padding: 0;
+  margin: 0;
 }
 
 nav > ul > li {
@@ -184,11 +185,6 @@ nav > ul >li > a:focus {
   color: navy;
 }
 
-nav {
-  display: inline-block;
-  width: 100%;
-}
-
 .navtoggle li:not(:last-child) {
   display: none;
 }
@@ -202,6 +198,7 @@ nav {
   right: 0;
   top: 2px;
   font-size: 20px;
+  padding-right: 0;
 }
 
 /* Contact section styling */
@@ -403,6 +400,10 @@ nav {
   float: right;
   margin-top: 40px;
   margin-right: 40px;
+}
+
+nav > ul {
+  margin: 1em 0;
 }
 
 .navtoggle li:not(:last-child) {
