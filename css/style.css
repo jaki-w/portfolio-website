@@ -394,8 +394,12 @@ nav {
   margin-right: 40px;
 }
 
-nav > ul > li {
+.navtoggle li:not(:last-child) {
   display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
 }
 
 main {
