@@ -39,7 +39,7 @@ h3 {
 /* Main attribute Styling */
 
 main {
-  padding-top: 120px;
+  padding-top: 5px;
 }
 
 header {
@@ -48,6 +48,7 @@ header {
   box-shadow:  0px 3px 10px 0px rgba(50, 50, 50, 0.39);
   position: fixed;
   width: 100%;
+  padding: 10px 0 4px;
 }
 
 .container {
@@ -393,6 +394,7 @@ nav > ul >li > a:focus {
 
 header {
   text-align: unset;
+  padding: 10px 0 4px;
 }
 
 nav {
@@ -415,7 +417,7 @@ nav > ul {
 }
 
 main {
-  padding-top: 90px;
+  padding-top: 70px;
 }
 
 #aboutPage h3 {
