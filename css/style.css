@@ -193,6 +193,10 @@ nav {
   display: none;
 }
 
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
 /* Contact section styling */
 
 #contact {
