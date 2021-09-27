@@ -189,6 +189,10 @@ nav {
   width: 100%;
 }
 
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
 /* Contact section styling */
 
 #contact {
