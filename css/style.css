@@ -147,6 +147,7 @@ a.button:active {
 
 #emailButton {
   margin-bottom: 20px;
+  width: 100%;
 }
 
 /* Logo & icon styling */
@@ -489,6 +490,10 @@ main {
   margin-left: auto;
 }
 
+#emailButton {
+  width: 50%;
+}
+
 }
 
 /* Large devices (1024px and larger) */
@@ -527,6 +532,10 @@ main {
     margin-left: auto;
     margin-right: auto;
     align-content: space-between;
+  }
+
+  #emailButton {
+    width: 30%;
   }
 
 
