@@ -264,18 +264,21 @@ nav > ul >li > a:focus {
 }
 
 #sectionChild1 {
-  width: 30%;
+  width: 100%;
+  display: block;
+  margin-bottom: 40px;
 }
 
 #sectionChild2 {
-  width: 60%;
+  width: 100%;
   background-color: #fcfcfc;
   border-radius: 2%;
   padding: 20px;
+  display: block;
 }
 
 #skills {
-  display: flex;
+  display: block;
   justify-content: center;
 }
 
@@ -459,6 +462,11 @@ main {
   margin: 40px;
 }
 
+#sectionChild1 {
+  justify-content:space-around;
+  width: 60%;
+}
+
 }
 
 /* Large devices (1024px and larger) */
@@ -477,6 +485,35 @@ main {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #sectionChild1 {
+    width: 25%;
+    margin-right: 40px;
+  }
+
+  #sectionChild2 {
+    width: 70%;
+    background-color: #fcfcfc;
+    border-radius: 2%;
+    padding: 20px;
+  }
+
+  #aboutMe {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: space-between;
+  }
+
+  #skillsSection {
+    width: 100%;
+    display: inline-block;
+  }
+
+  #skills {
+    display: flex;
   }
 
 }
