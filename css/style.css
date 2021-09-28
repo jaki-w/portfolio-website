@@ -158,6 +158,8 @@ a.button:active {
 
 .logo {
   max-width: 50px;
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 /* nav bar styling */
