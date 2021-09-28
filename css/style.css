@@ -473,6 +473,22 @@ main {
   flex-direction: column;
 }
 
+#skillsList {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#skillsSection {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+#toolsList {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 }
 
 /* Large devices (1024px and larger) */
@@ -506,21 +522,13 @@ main {
   }
 
   #aboutMe {
+    flex-direction: row;
     display: flex;
-    align-items: center;
     margin-left: auto;
     margin-right: auto;
     align-content: space-between;
   }
 
-  #skillsSection {
-    width: 100%;
-    display: inline-block;
-  }
-
-  #skills {
-    display: flex;
-  }
 
 }
 
