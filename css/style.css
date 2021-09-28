@@ -336,6 +336,8 @@ nav > ul >li > a:focus {
 .bottomNav > h2 {
   width: 50%;
   align-self: flex-start;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .bottomNav > i {
