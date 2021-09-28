@@ -142,6 +142,7 @@ a.button:active {
 #resumeButton {
   text-align: center;
   margin-top: 30px;
+  width: 100%;
 }
 
 #emailButton {
@@ -463,8 +464,13 @@ main {
 }
 
 #sectionChild1 {
-  justify-content:space-around;
   width: 60%;
+  align-self: center;
+}
+
+#aboutMe {
+  display: flex;
+  flex-direction: column;
 }
 
 }
