@@ -7,4 +7,13 @@ function menuToggle() {
   } else {
     x.className = 'navtoggle';
   }
-}
+};
+
+function bottomMenuToggle() {
+  var x = document.getElementById('myBottomNavToggle');
+  if (x.className === 'navtoggle') {
+    x.className += ' responsive';
+  } else {
+    x.className = 'navtoggle';
+  }
+};
