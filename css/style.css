@@ -48,6 +48,7 @@ header {
   position: fixed;
   width: 100%;
   padding: 10px 0 4px;
+
 }
 
 footer {
@@ -161,8 +162,7 @@ a.button:active {
 
 .logo {
   max-width: 30px;
-  margin-bottom: 1em;
-  margin-top: 1em;
+  margin-bottom: 10px;
 }
 
 /* nav bar styling */
@@ -235,7 +235,7 @@ nav > ul >li > a:focus {
   display: inline-block;
   width: 100%;
   margin-bottom: 40px;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 #hero h1 {
