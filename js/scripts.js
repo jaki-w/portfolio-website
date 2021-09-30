@@ -13,7 +13,14 @@ function bottomMenuToggle() {
   var x = document.getElementById('myBottomNavToggle');
   if (x.className === 'navtoggle') {
     x.className += ' responsive';
+    $("#itemName").hide();
   } else {
     x.className = 'navtoggle';
+    $("#itemName").hide();
   }
+};
+
+function displayItemName(itemName) {
+  $("#itemName").html(itemName);
+  $("#itemName").show();
 };

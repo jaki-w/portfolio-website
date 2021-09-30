@@ -341,6 +341,11 @@ nav > ul >li > a:focus {
   margin-right: 1em;
 }
 
+#myBottomNavToggle > li:(:first-child) {
+  display: none;
+}
+
+
 
 /* keyframes */
 
