@@ -341,6 +341,15 @@ nav > ul >li > a:focus {
   margin-right: 1em;
 }
 
+#itemDisplay {
+  margin-top: 1em;
+  float: center;
+  left: 0;
+  font-weight: 600;
+  font-size: 18px;
+  list-style: none;
+}
+
 #itemName {
   font-weight: 600;
   margin-right: 7em;
@@ -567,6 +576,15 @@ main {
 
   #emailButton {
     width: 30%;
+  }
+
+  #myBottomNavToggle {
+    position: fixed;
+    left: 0;
+  }
+
+  #itemName {
+    display: none;
   }
 
 
