@@ -345,6 +345,10 @@ nav > ul >li > a:focus {
   display: none;
 }
 
+#itemName {
+  margin-right: 6em;
+  font-weight: 600;
+}
 
 
 /* keyframes */
