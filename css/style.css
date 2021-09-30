@@ -173,10 +173,6 @@ nav > ul {
   margin: 0;
 }
 
-nav > ul > li {
-
-}
-
 nav > ul >li > a {
   padding: 0 15px;
   text-transform: uppercase;
@@ -330,7 +326,9 @@ nav > ul >li > a:focus {
   color: #fcfcfc;
   position: fixed;
   bottom: 0;
-  align-items: flex-end;
+  align-items: flex-start;
+  padding-left: 2em;
+  justify-content: flex-start;
 }
 
 #myBottomNavToggle > nav > ul {
@@ -471,8 +469,18 @@ nav > ul {
   display: inline-block;
 }
 
-.navtoggle li:last-child {
+#myNavtoggle li:last-child {
   display: none;
+}
+
+#myBottomNavToggle li:not(:last-child) {
+display: none;
+}
+
+#myBottomNavToggle.responsive li {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid white);
 }
 
 main {
@@ -582,11 +590,6 @@ main {
     position: fixed;
     left: 0;
   }
-
-  #itemName {
-    display: none;
-  }
-
 
 }
 
