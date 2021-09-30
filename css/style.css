@@ -341,13 +341,9 @@ nav > ul >li > a:focus {
   margin-right: 1em;
 }
 
-#myBottomNavToggle > li:(:first-child) {
-  display: none;
-}
-
 #itemName {
-  margin-right: 6em;
   font-weight: 600;
+  margin-right: 7em;
 }
 
 
