@@ -4,8 +4,10 @@ function menuToggle() {
   var x = document.getElementById('myNavtoggle');
   if (x.className === 'navtoggle') {
     x.className += ' responsive';
+    $(".topBarSocialIcon").hide();
   } else {
     x.className = 'navtoggle';
+    $(".topBarSocialIcon").hide();
   }
 };
 
