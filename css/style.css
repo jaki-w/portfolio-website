@@ -329,6 +329,7 @@ nav > ul >li > a:focus {
   align-items: flex-start;
   padding-left: 2em;
   justify-content: flex-start;
+  opacity: 95%;
 }
 
 #myBottomNavToggle > nav > ul {
