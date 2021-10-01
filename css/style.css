@@ -171,6 +171,9 @@ nav > ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  align-content: center;
+  display: flex;
+  align-items: center;
 }
 
 nav > ul >li > a {
@@ -217,6 +220,10 @@ nav > ul >li > a:focus {
 
 .navtoggle.responsive li:last-child {
   padding: 0 0 10px;
+}
+
+#lastTopBarLink {
+  margin-right: 6em;
 }
 
 /* Contact section styling */
