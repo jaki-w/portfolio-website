@@ -56,15 +56,15 @@ footer {
 }
 
 .container {
-  padding: 0 15px;
+
 }
 
 .row {
-  margin: 25px 0;
+
 }
 
 .column {
-  margin-bottom: 25px;
+padding-bottom: 3em;
 }
 
 /* Universal selector classes */
@@ -98,9 +98,8 @@ img {
   width: 80%;
 }
 
-#Layer_1 {
-  width: 75%;
-  max-width: 100%;
+#cssAnimation {
+  width: 60%;
   height: auto;
 }
 
