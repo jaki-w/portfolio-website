@@ -89,7 +89,7 @@ img {
   margin-top: 50px;
 }
 
-#profileImg {
+.profileImg {
   width: 100%;
   border-radius: 50%;
 }
