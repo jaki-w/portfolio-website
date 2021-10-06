@@ -142,20 +142,20 @@ a.button:active {
 }
 
 .logo {
-  max-width: 2em;
-  margin: 1em;
+  max-width: 2.5em;
+  margin: 2em;
+  float: left;
 }
 
 /* nav bar styling */
 
 nav > ul {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
+  float: right;
+  margin: 1em;
 }
 
 nav > ul > li > a {
-  padding: 1em;
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 600;
@@ -183,9 +183,10 @@ nav > ul > li > a:focus {
 .navtoggle li .icon {
   position: absolute;
   right: 1em;
-  top: 2px;
+  top: 1em;
   font-size: 20px;
   padding-right: 0;
+  color: #0f0f0f;
 }
 
 .navtoggle.responsive li {
@@ -555,18 +556,7 @@ nav > ul > li > a:focus {
 
   main {
     width: 100%;
-    padding-top: 70px;
-  }
-
-  #hero {
-    text-align: center;
-    background-color: #56798c;
-    padding: 3em 10em;
-    padding-bottom: 0;
-    display: inline-block;
-    margin-bottom: 1em;
-    margin-top: 2em;
-    color: #fcfcfc;
+    padding-top: 60px;
   }
 
   #project1,
@@ -602,11 +592,6 @@ nav > ul > li > a:focus {
     content: "";
     clear: both;
     display: table;
-  }
-
-  .logo {
-    float: left;
-    margin: 40px;
   }
 
   #sectionChild1 {
@@ -645,16 +630,11 @@ nav > ul > li > a:focus {
   nav {
     width: auto;
     float: right;
-    margin-top: 40px;
-    margin-right: 40px;
-  }
-
-  nav > ul {
-    margin: 1em 0;
   }
 
   .navtoggle li:not(:last-child) {
     display: inline-block;
+    padding: 1em;
   }
 
   #myNavtoggle li:last-child {
