@@ -204,7 +204,7 @@ nav > ul > li > a:focus {
 }
 
 #lastTopBarLink {
-  margin-right: 8em;
+  margin-right: 4em;
 }
 
 .topBarSocialIcon {
@@ -230,13 +230,13 @@ nav > ul > li > a:focus {
 
 #hero {
   text-align: center;
-  background-color: #7a9cae;
+  background-color: #56798c;
   padding: 1em;
   padding-bottom: 0;
   display: inline-block;
   margin-bottom: 1em;
   margin-top: 3em;
-  color: #0f0f0f;
+  color: #fcfcfc;
 }
 
 #hero span {
