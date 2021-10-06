@@ -248,9 +248,10 @@ nav > ul > li > a:focus {
 #project3 {
   display: inline-flex;
   align-items: flex-start;
-  width: 100%;
   margin-top: 3em;
   padding: 1em;
+  width: 100%;
+  border-bottom: 2px solid black;
 }
 
 .projectH2 {
@@ -646,7 +647,7 @@ nav > ul > li > a:focus {
   }
 
   .container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
   }
