@@ -141,6 +141,11 @@ a.button:active {
   margin-right: 20px;
 }
 
+#viewProjectButton {
+  width: 100%;
+  text-align: center;
+}
+
 .logo {
   max-width: 2.5em;
   margin: 2em;
@@ -568,6 +573,12 @@ nav > ul > li > a:focus {
     padding: 1em;
     width: 100%;
     border-bottom: 2px solid black;
+  }
+
+  #viewProjectButton {
+    width: 50%;
+    float: left;
+    margin-top: 1em;
   }
 
   .column {
