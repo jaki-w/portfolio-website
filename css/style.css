@@ -220,11 +220,12 @@ nav > ul > li > a:focus {
 /* Index page styling */
 
 #work {
-  display: block;
+  display: inline-block;
 }
 
 #contact {
-  display: block;
+  width: 100%;
+  display: inline-block;
 }
 
 #hero {
