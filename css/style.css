@@ -250,6 +250,11 @@ nav > ul > li > a:focus {
   align-items: flex-start;
   width: 100%;
   margin-top: 3em;
+  padding: 1em;
+}
+
+.projectH2 {
+  margin-bottom: 1em;
 }
 
 /* About Page Styling */
