@@ -377,6 +377,8 @@ nav > ul >li > a:focus {
 /* keyframes */
 
 /* sky color change */
+/ *stylelint-disable */
+/* disabled to allow fill property */
 @keyframes color-change1 {
   0% {fill: #8B699A;}
   25% {fill: #C54A5C;}
@@ -416,6 +418,8 @@ nav > ul >li > a:focus {
   75% {fill: #D47A75;}
   100% {fill: #C2A183;}
 }
+
+/ *stylelint-enable */
 
 #circle1 {
   animation: 8s color-change1 infinite alternate linear;
@@ -500,7 +504,7 @@ display: none;
 #myBottomNavToggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid white);
+  border-top: 1px solid white;
 }
 
 main {
@@ -618,11 +622,5 @@ main {
   .projectSection {
     margin-left: 4em;
     margin-right: 4em;
-}
-
-
-/* X-large devices (1440px and larger) */
-
-@media only screen and (min-width: 1440px) {
-
+  }
 }
