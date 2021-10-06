@@ -51,10 +51,6 @@ footer {
   width: 100%;
 }
 
-.column {
-  padding-bottom: 3em;
-}
-
 /* Universal selector classes */
 .center {
   text-align: center;
@@ -246,16 +242,19 @@ nav > ul > li > a:focus {
 #project1,
 #project2,
 #project3 {
-  display: inline-flex;
-  align-items: flex-start;
-  margin-top: 3em;
+  display: inline-block;
+  margin-top: 1em;
   padding: 1em;
   width: 100%;
   border-bottom: 2px solid black;
 }
 
+.column {
+  padding-bottom: 1em;
+}
+
 .projectH2 {
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 /* About Page Styling */
@@ -574,6 +573,21 @@ nav > ul > li > a:focus {
   main {
     width: 100%;
     padding-top: 70px;
+  }
+
+  #project1,
+  #project2,
+  #project3 {
+    display: inline-flex;
+    align-items: flex-start;
+    margin-top: 3em;
+    padding: 1em;
+    width: 100%;
+    border-bottom: 2px solid black;
+  }
+
+  .column {
+    padding-bottom: 3em;
   }
 
   #aboutPage h3 {
