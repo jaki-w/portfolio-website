@@ -143,9 +143,11 @@ a.button:active {
 
 .logo {
   max-width: 2em;
+  margin: 1em;
 }
 
 /* nav bar styling */
+
 nav > ul {
   list-style-type: none;
   padding: 0;
@@ -153,7 +155,7 @@ nav > ul {
 }
 
 nav > ul > li > a {
-  padding: 0 20px;
+  padding: 1em;
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 600;
@@ -180,7 +182,7 @@ nav > ul > li > a:focus {
 
 .navtoggle li .icon {
   position: absolute;
-  right: 0;
+  right: 1em;
   top: 2px;
   font-size: 20px;
   padding-right: 0;
@@ -227,7 +229,7 @@ nav > ul > li > a:focus {
 #hero {
   text-align: center;
   background-color: #56798c;
-  padding: 3em 10em;
+  padding: 3em 1em;
   padding-bottom: 0;
   display: inline-block;
   margin-bottom: 1em;
@@ -554,6 +556,17 @@ nav > ul > li > a:focus {
   main {
     width: 100%;
     padding-top: 70px;
+  }
+
+  #hero {
+    text-align: center;
+    background-color: #56798c;
+    padding: 3em 10em;
+    padding-bottom: 0;
+    display: inline-block;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    color: #fcfcfc;
   }
 
   #project1,
