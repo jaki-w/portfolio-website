@@ -64,7 +64,8 @@ footer {
 }
 
 /* Image styling */
-img {
+img,
+svg {
   width: 100%;
   display: block;
   margin-left: auto;
@@ -253,7 +254,8 @@ nav > ul > li > a:focus {
 #project1,
 #project2,
 #project3 {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   width: 100%;
   margin-top: 3em;
 }
