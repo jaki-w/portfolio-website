@@ -208,7 +208,7 @@ nav > ul > li > a:focus {
 }
 
 .topBarSocialIcon {
-  padding: 0 20px;
+  padding: 0 .5em;
 }
 
 /* Contact section styling */
