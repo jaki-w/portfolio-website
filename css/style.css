@@ -363,6 +363,7 @@ nav > ul > li > a:focus {
 #itemDisplay {
   margin-left: 1em;
   margin-top: 1em;
+  padding-top: 0.5em;
   font-weight: 500;
   font-size: 18px;
   list-style: none;
