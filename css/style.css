@@ -556,7 +556,6 @@ nav > ul > li > a:focus {
   #myBottomNavToggle.responsive li {
     display: block;
     padding: 10px 0;
-    border-top: 1px solid white;
   }
 
   main {
