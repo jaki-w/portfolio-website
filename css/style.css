@@ -89,28 +89,28 @@ img,
 
 /* Link & Button Styling */
 a {
-  color: #56798c;
+  color: #0f0f0f;
   text-decoration: none;
 }
 
 a:visited {
-  color: #56798c;
+  color: #0f0f0f;
 }
 
 a:hover,
 a:focus {
-  color: #56798c;
+  color: #0f0f0f;
   text-decoration: underline;
 }
 
 a:active {
-  color: #994c30;
+  color: #0f0f0f;
 }
 
 a.button {
   display: inline-block;
   background-color: #56798c;
-  color: #fcfcfc;
+  color: #0f0f0f;
   font-weight: 500;
   text-decoration: none;
   padding: 10px;
@@ -124,7 +124,7 @@ a.button:hover {
 }
 
 a.button:active {
-  color: #994c30;
+  color: #0f0f0f;
 }
 
 #resumeButton {
@@ -166,7 +166,7 @@ nav > ul > li > a {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 600;
-  color: #56798c;
+  color: #0f0f0f;
 }
 
 nav > ul > li > a:visited {
@@ -496,7 +496,8 @@ nav > ul > li > a:focus {
   }
 }
 
-/ *stylelint-enable */ #circle1 {
+/ *stylelint-enable */
+#circle1 {
   animation: 8s color-change1 infinite alternate linear;
 }
 
