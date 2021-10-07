@@ -336,11 +336,11 @@ nav > ul > li > a:focus {
   flex-direction: column;
   width: 100%;
   background-color: #7a9cae;
-  color: #fcfcfc;
+  color: #0f0f0f;
   position: fixed;
   bottom: 0;
   align-items: flex-start;
-  padding-left: 2em;
+  padding: 2em 2em 0;
   justify-content: flex-start;
   opacity: 95%;
 }
@@ -361,12 +361,14 @@ nav > ul > li > a:focus {
 #itemDisplay {
   margin: 10px;
   margin-left: 0;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
   list-style: none;
 }
 
 #itemName {
+  font-size: 20px;
+  text-transform: uppercase;
   font-weight: 600;
   margin-right: 5em;
 }
