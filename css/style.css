@@ -340,37 +340,38 @@ nav > ul > li > a:focus {
   position: fixed;
   bottom: 0;
   align-items: flex-start;
-  padding: 2em 2em 0;
+  padding: 0;
   justify-content: flex-start;
   opacity: 95%;
 }
 
 #myBottomNavToggle > nav > ul {
-  padding: 10px;
+  padding: 0;
+  margin: 8px;
 }
 
 #myBottomNavToggle > nav > ul > li > a {
-  margin-right: 10px;
+  margin-right: 0;
 }
 
 #chevronIcon {
-  margin-right: 1em;
-  margin-top: 1em;
+  margin-top: 0;
+  padding-top: 1em;
+  transform: rotate(180deg);
 }
 
 #itemDisplay {
-  margin: 10px;
-  margin-left: 0;
+  margin-left: 1em;
+  margin-top: 1em;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   list-style: none;
 }
 
 #itemName {
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: 600;
-  margin-right: 5em;
 }
 
 /* keyframes */
@@ -557,7 +558,25 @@ nav > ul > li > a:focus {
 
   #myBottomNavToggle.responsive li {
     display: block;
-    padding: 10px 0;
+    padding: 1em;
+  }
+
+  #myBottomNavToggle > nav {
+    padding: 2em 2em 0;
+  }
+
+  #myBottomNavToggle > nav > ul > li > a {
+    margin-right: 2em;
+  }
+
+  #itemDisplay {
+    margin: 10px;
+    margin-left: 2em;
+    font-size: 18px;
+  }
+
+  #itemName {
+    font-size: 20px;
   }
 
   main {
