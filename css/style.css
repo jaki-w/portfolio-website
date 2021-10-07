@@ -77,7 +77,8 @@ img,
 }
 
 .preferenceImages {
-  width: 80%;
+  width: 40%;
+  margin-top: 2em;
 }
 
 #cssAnimation {
@@ -325,6 +326,10 @@ nav > ul > li > a:focus {
   margin-bottom: 60px;
   margin-left: 1em;
   margin-right: 1em;
+}
+
+#personaImage {
+  width: 30%;
 }
 
 .projectIntroSection {
