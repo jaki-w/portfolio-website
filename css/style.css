@@ -138,8 +138,8 @@ a.button:active {
 }
 
 /* Logo & icon styling */
-#socialIcon {
-  margin-right: 20px;
+.socialIcon {
+  margin-right: 1em;
 }
 
 .viewProjectButton {
@@ -739,5 +739,9 @@ nav > ul > li > a:focus {
   .projectSection {
     margin-left: 4em;
     margin-right: 4em;
+  }
+
+  .hiddenFooterLinks {
+    display: none;
   }
 }
