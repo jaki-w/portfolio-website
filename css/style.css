@@ -364,7 +364,7 @@ nav > ul > li > a:focus {
   margin-left: 1em;
   margin-top: 1em;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   list-style: none;
 }
 
@@ -558,15 +558,19 @@ nav > ul > li > a:focus {
 
   #myBottomNavToggle.responsive li {
     display: block;
-    padding: 1em;
+    padding: 0.5em;
+    margin-left: 1em;
   }
 
   #myBottomNavToggle > nav {
-    padding: 2em 2em 0;
+    padding: 0;
+    width: 45%;
+    right: 0;
+    border-radius: 50px;
   }
 
   #myBottomNavToggle > nav > ul > li > a {
-    margin-right: 2em;
+    margin-right: 1em;
   }
 
   #itemDisplay {
@@ -576,7 +580,7 @@ nav > ul > li > a:focus {
   }
 
   #itemName {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   main {
@@ -670,6 +674,10 @@ nav > ul > li > a:focus {
 
   #myNavtoggle li:last-child {
     display: none;
+  }
+
+  #myBottomNavToggle > nav {
+    width: 35%;
   }
 
   img {
