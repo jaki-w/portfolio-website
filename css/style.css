@@ -41,6 +41,7 @@ main {
 
 header {
   background-color: #7a9cae;
+  color: #fcfcfc;
   box-shadow: 0 3px 10px 0 rgba(50, 50, 50, 0.39);
   position: fixed;
   width: 100%;
@@ -139,7 +140,7 @@ a.button:active {
 
 /* Logo & icon styling */
 .socialIcon {
-  margin-right: 1em;
+  margin: 1em;
 }
 
 .viewProjectButton {
