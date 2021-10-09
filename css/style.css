@@ -229,6 +229,11 @@ nav > ul > li > a:focus {
   display: inline-block;
 }
 
+#workh1 {
+  margin-bottom: 0;
+  padding: 0;
+}
+
 #contact {
   width: 100%;
   display: inline-block;
@@ -237,7 +242,7 @@ nav > ul > li > a:focus {
 #hero {
   text-align: center;
   background-color: #56798c;
-  padding: 3em 1em;
+  padding: 3em 2em;
   padding-bottom: 0;
   display: inline-block;
   margin-bottom: 1em;
@@ -613,10 +618,6 @@ nav > ul > li > a:focus {
     margin-top: 1em;
   }
 
-  .column {
-    padding-bottom: 2em;
-  }
-
   #aboutPage h3 {
     margin-top: 0;
   }
@@ -627,8 +628,8 @@ nav > ul > li > a:focus {
 
   [class*="col-"] {
     float: left;
-    padding-left: 10px;
-    padding-right: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
   }
 
   .row: after {
@@ -704,6 +705,10 @@ nav > ul > li > a:focus {
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #hero {
+    padding: 2em 3em;
   }
 
   #sectionChild1 {
